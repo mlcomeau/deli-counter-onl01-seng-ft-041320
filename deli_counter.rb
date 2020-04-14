@@ -10,5 +10,5 @@ def line (array)
     counter += 1
   end
 
-  puts "The line is currently: #{lineList.join(", ")}"
+  puts "The line is currently: #{lineList.join(" ")}"
 end
