@@ -2,7 +2,7 @@ def line (array)
   lineList = []
   if array.length == 0
     puts "The line is currently empty."
-  else 
+  else
     counter = 1
     array.each do |name|
       lineList << "#{counter}. #{name}"
@@ -10,5 +10,5 @@ def line (array)
     end
     puts "The line is currently: #{lineList.join(" ")}"
   end
-  
+
 end
