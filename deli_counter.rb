@@ -10,5 +10,5 @@ def line (array)
     end
     puts "The line is currently: #{lineList.join(" ")}"
   end
-
 end
+
