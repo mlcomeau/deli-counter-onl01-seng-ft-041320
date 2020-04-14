@@ -6,8 +6,8 @@ def line (array)
 
   counter = 1
   array.each do |name|
-    lineList << "#{counter}. #{name}" 
-    counter += 1 
+    lineList << "#{counter}. #{name}"
+    counter += 1
   end
 
   return "The line is currently: #{lineList.join(, )}"
