@@ -10,7 +10,7 @@ def line (array)
     counter += 1
   end
 
-  return "The line is currently: #{lineList.join(, )}"
+  return "The line is currently: #{lineList.join(", ")}"
 end
 
      
